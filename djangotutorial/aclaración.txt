@@ -1,0 +1,1 @@
+Si en algun momento del tutorial se menciona el nombre "MySite", esta haciendo referencia a la carpeta "djangotutorial".

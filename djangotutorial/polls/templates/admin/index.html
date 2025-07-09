@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>Bienvenido al panel de administración de encuestas</h1>
+<ul>
+    <li><a href="{% url 'admin:polls_question_changelist' %}">Administrar preguntas</a></li>
+    <li><a href="{% url 'admin:polls_choice_changelist' %}">Administrar opciones</a></li>
+</ul>
+{% endblock %}
